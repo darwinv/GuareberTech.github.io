@@ -782,7 +782,28 @@
 			height: 100%;
 			background: rgba(64,64,64,0.125);
 		}
+		
+/*********************************************************************************/
+/* Circular imagenes del equipo                                                                        */
+/*********************************************************************************/		
+.circular img {
+	
+	border: 2px solid grey;
+	margin: 0;
+	padding: 0;
+	border-radius: 800px;
+	overflow: hidden;
+	width: 35%;
+	height: 25%;
+}
 
+.circular img:hover{
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -o-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    transform: scale(1.5)
+}
 /*********************************************************************************/
 /* Logo                                                                          */
 /*********************************************************************************/
