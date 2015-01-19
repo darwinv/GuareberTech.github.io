@@ -906,7 +906,12 @@
 		position: relative;
 		background: #fff;
 	}
-	
+	#main h2{
+		display: block;
+		font-weight: 300;
+		font-size: 3.0em;
+		padding: 1em;
+	}
 	.homepage #content
 	{
 		text-align: center;
@@ -983,10 +988,12 @@
 		text-align: center;
 	}
 	
-	#team h3
+	#team h2
 	{
 		display: block;
 		font-weight: 300;
+		font-size: 3.0em;
+		padding: 1em;
 	}
 
 	#team .pennant
