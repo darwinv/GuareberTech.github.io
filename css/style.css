@@ -995,6 +995,12 @@
 		font-size: 3.0em;
 		padding: 1em;
 	}
+  #team h3
+	{
+		display: block;
+		font-size: 1.0em;
+		padding: 1em;
+	}
 
 	#team .pennant
 	{
